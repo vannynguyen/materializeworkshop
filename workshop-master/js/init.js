@@ -4,4 +4,5 @@
 // this initializes all modals so they can be triggered
 $(document).ready(function() {
   //initializing code goes here!
+  $(".dropdown-button").dropdown({ hover: false });
 });
